@@ -1,6 +1,6 @@
 package chapter03;
 
-public class Car {
+public class Car1 {
 
     // 필드 또는 멤버변수
     String company = "현대자동차";
@@ -9,16 +9,16 @@ public class Car {
     int maxSpeed = 350;
     int speed;
 
-    Car() {}
+    Car1() {}
 
-    Car(String model) {
+    Car1(String model) {
         this.model = model;
     }
-    Car(String color, int cc) {
+    Car1(String color, int cc) {
         this.color = color;
         this.maxSpeed = cc;
     }
-    Car(String model, String color, int cc) {
+    Car1(String model, String color, int cc) {
         this.model = model;
         this.color = color;
         this.maxSpeed = cc;
